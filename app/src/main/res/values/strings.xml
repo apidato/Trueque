@@ -4,7 +4,7 @@
     <string name="login_password">Su password</string>
     <string name="login_password_conf">Confirme su password</string>
     <string name="login_link">Crear nueva cuenta</string>
-    <string name="login_linkr">Ya tengo una cuenta</string>
+    <string name="login_linkr">Ya tengo una cuenta. Iniciaré sesión</string>
 
     <string name="product_name">Articulo: </string>
     <string name="product_description">Descripción: </string>
