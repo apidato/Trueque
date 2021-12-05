@@ -102,4 +102,28 @@
         android:indeterminateDrawable="@drawable/progress_back"
         android:visibility="gone" />
 
+    <Button
+        android:id="@+id/ingresargoogle"
+        android:layout_width="297dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="518dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="157dp"
+        android:backgroundTint="@color/secondaryDarkColor"
+        android:drawableLeft="@drawable/google"
+        android:drawablePadding="10dp"
+        android:text="@string/LoginGoogle"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkIn"
+        app:layout_constraintVertical_bias="0.1" />
+
+
 </RelativeLayout>

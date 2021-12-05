@@ -7,7 +7,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.mntic.trueque"
+        applicationId "com.MnTic2_3.trq"
         minSdk 21
         targetSdk 31
         versionCode 1
@@ -40,6 +40,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:20.0.3'
     implementation platform('com.google.firebase:firebase-bom:28.2.1')
     implementation 'com.google.android.gms:play-services-maps:18.0.0'
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'/*autenticación con google*/
+    implementation 'com.firebaseui:firebase-ui-auth:4.3.2'
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     implementation 'com.google.firebase:firebase-auth'

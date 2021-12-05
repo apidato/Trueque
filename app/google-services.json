@@ -15,34 +15,13 @@
       },
       "oauth_client": [
         {
-          "client_id": "930178951195-8hj28l73olds7dep597rv33gfib75c0o.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCIVlL6i4xk_SS7gx0rYOXyQPKk-YcjwtY"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "930178951195-8hj28l73olds7dep597rv33gfib75c0o.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:930178951195:android:6d62a0c29da5fc645ff0be",
-        "android_client_info": {
-          "package_name": "com.mntic.trueque"
-        }
-      },
-      "oauth_client": [
+          "client_id": "930178951195-3jn3q967dn6bn8oa04tleudtjn74jiua.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.MnTic2_3.trq",
+            "certificate_hash": "f1b60a958532d5d1a3901de71d1f7a2a41eaa678"
+          }
+        },
         {
           "client_id": "930178951195-8hj28l73olds7dep597rv33gfib75c0o.apps.googleusercontent.com",
           "client_type": 3

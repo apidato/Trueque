@@ -28,4 +28,6 @@
 
     <string name="Title_Marker_map">Ubicación de fotografía</string>
     <string name="Show_Ubi">Mostrar Ubicación</string>
-</resources>
+
+    <string name="LoginGoogle">Iniciar sesión con google</string>
+    </resources>
