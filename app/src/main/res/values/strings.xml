@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Trueque</string>
+    <string name="login_name">Ingrese email</string>
+    <string name="login_password">Su password</string>
+    <string name="login_link">Crear nueva cuenta</string>
+
+    <string name="product_name">Articulo: </string>
+    <string name="product_description">Descripción: </string>
+    <string name="product_owner">Propietario: </string>
+    <string name="product_price">Precio: </string>
+    <string name="product_img">Url imágen</string>
+    <string name="product_phone">Teléfono: </string>
+
+    <string name="product_btn_edit">Editar</string>
+    <string name="product_btn_detail">Detalles</string>
+    <string name="login_btn">Ingresar</string>
+    <string name="update_btn">Actualizar</string>
+    <string name="delete_btn">Borar</string>
+    <string name="save_btn">Guardar</string>
+
+    <string name="title_edit">Editar</string>
+    <string name="title_reg">Registro</string>
+    <string name="title_new">Nuevo producto</string>
+
+
+</resources>
