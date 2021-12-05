@@ -24,6 +24,8 @@
     <string name="title_edit">Editar</string>
     <string name="title_reg">Registro</string>
     <string name="title_new">Nuevo producto</string>
+    <string name="title_activity_maps">MapsActivity</string>
 
-
+    <string name="Title_Marker_map">Ubicación de fotografía</string>
+    <string name="Show_Ubi">Mostrar Ubicación</string>
 </resources>

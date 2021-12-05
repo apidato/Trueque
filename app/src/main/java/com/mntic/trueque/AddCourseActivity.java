@@ -1,6 +1,7 @@
 package com.mntic.trueque;
 
 
+import android.Manifest;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -10,6 +11,7 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.database.DataSnapshot;
@@ -21,7 +23,7 @@ import com.google.firebase.database.ValueEventListener;
 public class AddCourseActivity extends AppCompatActivity {
 
     //creating variables for our button, edit text,firebase database, database reference, progress bar.
-    private Button addCourseBtn;
+    private Button addCourseBtn,showCourseBtn;
     private TextInputEditText courseNameEdt, courseDescEdt, coursePriceEdt, bestSuitedEdt, courseImgEdt, courseLinkEdt;
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
@@ -34,6 +36,7 @@ public class AddCourseActivity extends AppCompatActivity {
         setContentView(R.layout.activity_add_course);
         //initializing all our variables.
         addCourseBtn = findViewById(R.id.idBtnAddCourse);
+        showCourseBtn = findViewById(R.id.idBtnShowUbication);
         courseNameEdt = findViewById(R.id.idEdtCourseName);
         courseDescEdt = findViewById(R.id.idEdtCourseDescription);
         coursePriceEdt = findViewById(R.id.idEdtCoursePrice);
@@ -56,6 +59,7 @@ public class AddCourseActivity extends AppCompatActivity {
                 String bestSuited = bestSuitedEdt.getText().toString();
                 String courseImg = courseImgEdt.getText().toString();
                 String courseLink = courseLinkEdt.getText().toString();
+
                 courseID = courseName;
                 //on below line we are passing all data to our modal class.
                 CourseRVModal courseRVModal = new CourseRVModal(courseID, courseName, courseDesc, coursePrice, bestSuited, courseImg, courseLink);
@@ -79,6 +83,18 @@ public class AddCourseActivity extends AppCompatActivity {
                 });
             }
         });
+        //adding a click listener for our delete course button.
+        showCourseBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //calling a method to delete a course.
+                ShowUbi();
+            }
+        });
 
+    }
+    private void ShowUbi() {
+        Intent i = new Intent(this, MapsActivity.class);
+        startActivity(i);
     }
 }
