@@ -178,8 +178,8 @@ public class MainActivity extends AppCompatActivity implements CourseRVAdapter.C
         //on below line we are setting data to different views on below line.
         courseNameTV.setText(modal.getCourseName());
         courseDescTV.setText(modal.getCourseDescription());
-        suitedForTV.setText("Suited for " + modal.getBestSuitedFor());
-        priceTV.setText("Rs." + modal.getCoursePrice());
+        suitedForTV.setText("Contacto: " + modal.getBestSuitedFor());
+        priceTV.setText("$ " + modal.getCoursePrice());
         Picasso.get().load(modal.getCourseImg()).into(courseIV);
         Button viewBtn = layout.findViewById(R.id.idBtnVIewDetails);
         Button editBtn = layout.findViewById(R.id.idBtnEditCourse);

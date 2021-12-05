@@ -36,7 +36,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/idTVCourseName"
-        android:layout_margin="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
         android:layout_toEndOf="@id/idIVCourse"
         android:layout_toRightOf="@id/idIVCourse"
         android:padding="3dp"
@@ -49,7 +52,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/idTVCourseDesc"
-        android:layout_margin="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
         android:layout_toRightOf="@id/idIVCourse"
         android:padding="3dp"
         android:text="@string/product_owner"
@@ -61,12 +67,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/idTVSuitedFor"
-        android:layout_margin="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
         android:layout_toRightOf="@id/idIVCourse"
         android:padding="3dp"
         android:text="@string/product_price"
-        android:textColor="@color/white"
-        android:textSize="18sp" />
+        android:textColor="@color/white" />
 
 
     <LinearLayout

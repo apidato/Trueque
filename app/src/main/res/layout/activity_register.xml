@@ -16,7 +16,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="140dp"
         android:layout_marginEnd="20dp"
-        android:hint="Enter User Name"
+        android:hint="@string/login_name"
         android:padding="5dp"
         android:textColorHint="@color/white"
         app:hintTextColor="@color/white">
@@ -44,7 +44,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        android:hint="Enter Your Password"
+        android:hint="@string/login_password"
         android:padding="5dp"
         android:textColorHint="@color/white"
         app:hintTextColor="@color/white">
@@ -72,7 +72,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        android:hint="Confirm Your Password"
+        android:hint="@string/login_password_conf"
         android:padding="5dp"
         android:textColorHint="@color/white"
         app:hintTextColor="@color/white">
@@ -100,7 +100,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="25dp"
         android:background="@drawable/button_back"
-        android:text="Register"
+        android:text="@string/register_btn"
         android:textAllCaps="false" />
 
     <!--text view for displaying a text on clicking we will open a login page-->
@@ -113,7 +113,7 @@
         android:layout_marginTop="40dp"
         android:gravity="center"
         android:padding="10dp"
-        android:text="Already a User ? Login Here"
+        android:text="@string/login_linkr"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@color/white"
